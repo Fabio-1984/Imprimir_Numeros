@@ -1,0 +1,23 @@
+#Com for
+
+for i in range(20, 0, -1):
+   print(i)
+
+
+ #Com While
+
+numero = 20
+
+while numero>=1:    
+    print(numero)
+    numero -= 1 
+
+#Com Do While
+
+ n1 = 20
+
+ do{
+    print(n);
+    n1 -= 1
+    
+ }while(n1 >= 1)  
