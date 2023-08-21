@@ -1,6 +1,9 @@
 #Com for
 
 for i in range(20, 0, -1):
+  if(i == 13):
+    continue
+  else:  
    print(i)
 
 
@@ -8,9 +11,16 @@ for i in range(20, 0, -1):
 
 numero = 20
 
-while numero>=1:    
-    print(numero)
-    numero -= 1 
+while numero>=1:
+    if(numero == 13):        
+      numero -= 1 
+      continue
+    else:
+      print(numero)
+      numero -= 1 
+
+
+
 
 #Com Do While
 
